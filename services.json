@@ -1,0 +1,54 @@
+[
+  {
+    "id" : 1,
+    "name" : "Hardware",
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
+  {
+    "id" : 2,
+    "name" : "Software",
+     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
+  {
+    "id" : 3,
+    "name" : "Somwhere",
+     "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  }
+]
+/* [
+  {
+  "item":"Suunto Watch",
+  "id":"SW",
+  "selected":0,
+  "prices":"212$"
+
+},
+{
+"item":"Red Line",
+"id":"RL",
+"selected":0,
+"prices":"68$"
+
+},
+{
+"item":"Lucien Picard",
+"id":"LP",
+"selected":0,
+"prices":"57$"
+
+},
+{
+"item":"Movado",
+"id":"MO",
+"selected":0,
+"prices":"321$"
+
+},
+{
+"item":"Elini Barokas",
+"id":"EB",
+"selected":0,
+"prices":"64$"
+
+},
+] */

@@ -1,0 +1,95 @@
+<!-- Jumbotron -->
+      <div class="jumbotron text-center" >
+      <h2>  My SHOPPING CART</h2>
+        <!-- <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p> -->
+      </div>
+
+      <!-- Example row of columns -->
+      <!-- <div class="row">
+        <div ng-repeat="service in services">
+          <div class="col-lg-4">
+            <h2>{{service.name}}</h2>
+            <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container" ng-controller="ServicesCtrl">
+        <a class="custom-anchor pull-right" href="#!/contact">
+            Add New
+        </a>
+        <!-- <div class="row">
+          <div class="col-xs-7 col-md-8 col-sm-8 col-lg-8" ng-repeat="data in shopData">
+            <div class="panel panel-primary">
+                <div class="panel-heading"> -->
+                    <!-- <h3 class="panel-title">Panel title</h3> -->
+                    <!-- <div class="panel-heading">{{data.item}}</div>
+                </div>
+              <check-list option="data.prices" name="data.id" selected="data.selected"></check-list>
+            </div>
+          </div>
+
+          <div class="col-xs-5 col-md-4 col-sm-4 col-lg-4" data-spy="affix" data-offset-top="20">
+           <div class="panel panel-primary">
+             <div id="divTotal" class="panel-heading">
+                 <h3 class="panel-title">Total</h3>
+             </div>
+             <div class="panel-body">
+                <h2> {{total()}} </h2>
+             </div>
+         </div>
+         <div class="text-center">
+             <a href="#!/about" class="btn btn-danger">Checkout <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a>
+
+         </div>
+       </div>
+
+
+
+        </div> -->
+        <div class="container">
+          <div class="well">
+            <div class="page-header">
+              <h3>Products</h3>
+          </div>
+          </div>
+
+
+
+          <table class="table table-stripped">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Image</th>
+              </tr>
+
+             </thead>
+             <tbody>
+               <tr ng-repeat= "product in products">
+                 <td>
+                      <b>{{product.name}}</b>
+
+                 </td>
+                 <td>
+
+                      <b>{{product.price}}</b>
+                 </td>
+                 <td>
+
+                      <b><img ng-src="/{{product.img1}}"  alt="Smiley face"></b>
+                 </td>
+                 <td>
+                  <a type="button" class="btn btn-danger" href="#!/about">Cart <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                 </td>
+               </tr>
+               <!-- <tr>
+                 <td><strong>Total</strong</td>
+                 <td><strong>{{checkoutTotal}}</strong</td>
+               </tr> -->
+            </tbody>
+          </table>
+
+        </div>
+      </div>

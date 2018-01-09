@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="shoppingCart">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Zipy Shopping Cart</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="style.css" rel="stylesheet"> -->
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+      <div class="masthead">
+        <h3 class="text-muted">Shoping Cart</h3>
+        <nav>
+          <ul class="nav nav-justified">
+            <li class="active"><a href="#/main">Product</a></li>
+            <li><a href="#!/services">CART</a></li>
+            <li><a href="#!/about">CHECKOUT</a></li>
+            <!-- <li><a href="#/contact">Contact</a></li> -->
+          </ul>
+        </nav>
+      </div>
+
+     <div ng-controller="MainCtrl">
+       <div ng-view>
+       </div>
+     </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; Company 2018</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-route/angular-route.min.js"></script>
+    <script src="/lib/angular-cookies/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/ng-file-upload/ng-file-upload.min.js"></script>
+    <!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-cookies.js"></script> -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <!-- <script src="ng-file-upload.min.js"></script> -->
+    <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet"> -->
+
+  </body>
+</html>

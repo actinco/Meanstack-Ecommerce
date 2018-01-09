@@ -1,0 +1,8 @@
+{
+  "name": "cart",
+  "description": "simpe cart",
+  "version": "0.5.0",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
